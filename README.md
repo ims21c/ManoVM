@@ -100,3 +100,16 @@ Modify setM() function in main.cpp
 	computer.setM(0x6, 0x0);
  
  
+# ManoVM Run
+
+Command >>
+
+f : full-line code run - Run VM, while (S Flip-Flops == true)
+
+o : one-line run - Run VM, one instruction
+
+s : print status (register & flip-flops) - print 8 Registers and 7 Flip-Flops
+
+m : print memory - print memory[startAddress] to memory[endAddress]
+
+e : exit - exit program
